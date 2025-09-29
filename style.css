@@ -130,7 +130,7 @@ body{
                 display: flex;
                 justify-content: space-evenly;
                 background-color: rgb(255, 3, 3);
-                margin-top: 3.1rem;
+                margin-top: 4.2rem;
             }
 
             #call,
@@ -349,4 +349,5 @@ body{
                     width: 100%;
                     text-align: center;
                 }
+
             }
