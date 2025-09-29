@@ -1,0 +1,352 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#tr {
+                background-color: grey;
+            }
+
+            #nicola {
+                font-size: 2.5rem;
+                margin-left: 2rem;
+            }
+
+            #fashion {
+                font-size: 1.2rem;
+                margin-left: 2rem;
+            }
+
+            #nav {
+                font-size: 1.2rem;
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+                padding-bottom: 1rem;
+                color: white;
+            }
+
+            #threediv div {
+                width: 1.5rem;
+                height: 0.18rem;
+                border-radius: 0.18rem;
+            }
+
+            #threediv {
+                display: none;
+                cursor: pointer;
+                flex-direction: column;
+            }
+
+            #nav-content a:hover {
+                color: red;
+            }
+
+            #nav-content a {
+                text-decoration: none;
+                margin: 0rem 2rem 0rem 3rem;
+                text-align: center;
+                color: white;
+            }
+
+            #check {
+                display: none;
+            }
+
+            #image {
+                margin-top: 5%;
+                margin-left: 15%;
+            }
+
+            .container1 {
+                display: flex;
+                gap: 2%;
+            }
+
+            #image img {
+                border-radius: 50%;
+                width: 18.7rem;
+            }
+
+            #sub-container {
+                margin-top: 5%;
+            }
+
+            #hello {
+                font-size: 4.37rem;
+                font-weight: bold;
+            }
+
+            #hello1 {
+                font-size: 2.8rem;
+            }
+
+            #cir {
+                margin-top: 2%;
+                display: flex;
+                gap: 1.8rem;
+                width: 21.25rem;
+                padding: 0.13rem 0.13rem 0.13rem 0rem;
+            }
+
+            #c1 {
+                text-align: center;
+                height: 4.37rem;
+                width: 5.6rem;
+                padding-top: 6%;
+                border-radius: 50%;
+                color: white;
+                background-color: rgb(233, 10, 10);
+            }
+
+            #c2 {
+                text-align: center;
+                height: 4.3rem;
+                width: 5.6rem;
+                padding-top: 6%;
+                border-radius: 50%;
+                color: white;
+                background-color: rgb(52, 189, 189);
+            }
+
+            #c3 {
+                text-align: center;
+                height: 4.3rem;
+                width: 5.6rem;
+                padding-top: 6%;
+                border-radius: 50%;
+                color: white;
+                background-color: rgb(156, 163, 14);
+            }
+
+            #para {
+                width: 28.1rem;
+                padding: 0.1rem 0rem 0.1rem 0rem;
+                font-size: 1.2rem;
+            }
+
+            .container2 {
+                margin: 0rem;
+                padding: 0rem;
+                display: flex;
+                justify-content: space-evenly;
+                background-color: rgb(255, 3, 3);
+                margin-top: 4.2rem;
+            }
+
+            #call,
+            #msg,
+            #add,
+            #company {
+                display: flex;
+            }
+
+            #call-ic,
+            #msg-icon,
+            #add-icon,
+            #company-ic {
+                margin-top: 0.6rem;
+                height: 2.5rem;
+                width: 2.5rem;
+                color: rgb(249, 250, 249);
+                padding: 0.3rem 0.6rem 0.3rem 0rem;
+            }
+
+            #p1,
+            #p2,
+            #p3 {
+                margin: 0rem;
+            }
+
+            #p1 {
+                margin-top: 1rem;
+                font-size: 1.25rem;
+                font-weight: bold;
+            }
+
+            #p2,
+            #p3 {
+                margin-top: 0.18rem;
+            }
+
+            #icons {
+                font-size: 2.5rem;
+            }
+
+            #fb,
+            #twt {
+                font-size: 1.5rem;
+            }
+
+            #email {
+                width: 12.7rem;
+            }
+
+            #cont {
+                margin-top: 1rem;
+                font-size: 1.25rem;
+                font-weight: bold;
+            }
+
+            #em {
+                margin-top: -1.56rem;
+                font-weight: bold;
+            }
+
+            a {
+                margin-left: -0.6rem;
+                font-weight: normal;
+                color: rgb(4, 35, 235);
+            }
+
+            #em a:hover {
+                color: white;
+            }
+
+            #f {
+                font-size: 1.25rem;
+                font-weight: bold;
+            }
+
+            #fbtwt {
+                display: flex;
+                color: rgb(253, 255, 255);
+                gap: 0.3rem;
+                margin-top: -0.6rem;
+            }
+
+            #pr {
+                margin-top: -1rem;
+            }
+
+            @media (max-width: 680px) {
+                body 
+                {
+                    margin: 0px;
+                    padding: 0px;
+                };
+                #tr {
+                    width: 100%;
+                    height: 100%;
+                    margin: 0%;
+                    padding: 0%;
+                }
+
+                #nav-content a {
+                    display: flex;
+                    flex-direction: column;
+                    border: 0.2rem solid white;
+                    width: 95%;
+                    margin: 2% 0% 1.5% 5%;
+                }
+
+                #nav-content {
+                    background-color: bisque;
+                    overflow: hidden;
+                    position: absolute;
+                    max-height: 0;
+                    top: 2.2rem;
+                    width: 100%;
+                    right: 0%;
+                    transition: 0.6s ease-in-out;
+                }
+
+                #threediv {
+                    margin-right: 7%;
+                    display: flex;
+                    gap: 0.3rem;
+                    height: 2.18rem;
+                    margin-top: -8%;
+                }
+
+                #threediv div {
+                    background-color: white;
+                    height: 0.25rem;
+                }
+
+                #threediv #first {
+                    margin-top: 30%;
+                }
+
+                #check:checked~#nav-content {
+                    padding: 0.62rem 1.25rem 0.62rem 0rem;
+                    max-height: 12.5rem;
+                    text-align: center;
+                    border-radius: 0.3rem;
+                    width: 95%;
+                }
+
+                #nav-content a {
+                    color: blue;
+                }
+
+                #nav-content a:hover {
+                    color: white;
+                    border: 0.12rem solid;
+                    background-color: red;
+                    border-radius: 0.3rem;
+                }
+
+                .container,
+                .container1,
+                .container2 {
+                    width: 100%;
+                    height: 100%;
+                    margin: 0%;
+                    padding: 0%;
+                }
+
+                .container1 {
+                    flex-direction: column;
+                }
+
+                .container2 {
+                    flex-direction: column;
+                }
+
+                #nicola {
+                    width: 100%;
+                    font-size: 3.2rem;
+                    margin: 0%;
+                    padding: 0%;
+                }
+
+                .container #image {
+                    margin: 0%;
+                    padding-top: 10%;
+                    text-align: center;
+                }
+
+                #nav,
+                #fashion {
+                    width: 100%;
+                    margin: 0%;
+                    padding-bottom: 1%;
+                }
+
+                #sub-container #hello,
+                #sub-container #hello1 {
+                    width: 100%;
+                    height: 100%;
+                    text-align: center;
+                }
+
+                #sub-container #cir {
+                    width: 100%;
+                    height: 100%;
+                    gap: 0%;
+                    justify-content: space-evenly;
+                }
+
+                #call,
+                #msg,
+                #add {
+                    margin: 0%;
+                    padding: 0%;
+                    width: 100%;
+                }
+
+                #para {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
